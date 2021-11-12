@@ -1,25 +1,7 @@
-This is an implementation of C4.5 algorithm in python.
-Makes 'binary' classification.
-Creates tree recursively in c45 function and prints tree
+# C4.5_Decision-Tree_Algorithm_Learning
 
-Here is an example print for dataset Tennis:
+###  This is a repository for learning and implementing a class based logic for the C4.5 Algorithm which is a decision tree type algorithm
 
-```
+### Examples for the Datasets **tennis.csv** and **testSetSimple.csv**
 
-`- root - 
-   |- outlook - sunny
-   |  |- humidity - high
-   |  |  `- play - no
-   |  `- humidity - normal
-   |     `- play - yes
-   |- outlook - overcast
-   |  `- play - yes
-   `- outlook - rainy
-      |- windy - false
-      |  `- play - yes
-      `- windy - true
-         `- play - no
-```
-
-Here is referance to pprint function:
-https://vallentin.dev/2016/11/29/pretty-print-tree
+   ![image](https://user-images.githubusercontent.com/60535124/141502442-c970fb4a-b117-4d06-9cb6-bd8a0ae6732c.png)
